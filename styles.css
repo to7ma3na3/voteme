@@ -1,0 +1,298 @@
+body {
+  margin: 25px 40px;
+  background: rgb(135, 233, 235);
+}
+
+.title {
+  margin-bottom: 0;
+  }
+
+.subtitle {
+  display: flex;
+  justify-content:center;
+  }
+
+.medium {
+  font-size:20px;
+  font-weight: bold;
+  }
+  
+.strong {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+.love [type="checkbox"]:checked ~ .heart {
+  color: red;
+  animation-name: heart;
+  animation-duration: .6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heart {
+  0% {transform: scale(0);}
+  60% {transform: scale(3);}
+  100% {transform: scale(1);
+  color: red;}
+}
+
+.ripple {
+  width: 85px;
+  height: 85px;
+  background: rgb(247, 41, 117);
+  border-radius: 50%;
+  transform: scale(0);
+  position: absolute;
+ }
+
+.love [type="checkbox"]:checked ~ .ripple {
+  animation-name: ripple;
+  animation-duration: .6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ripple {
+  0% {transform: scale(1); }
+  /* 50% {transform: scale(1.1); } */
+  100% {transfoem: scale(1); 
+  opersity: 1; }
+}
+
+.love {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  transition: background .3s;
+  position: absolute;
+  top: 28px;
+  right: 100px;
+}
+
+.love:hover {
+  background: #f5f5f5;
+}
+
+.love [type="checkbox"] {
+  display: none;
+}
+
+.merits {
+  margin-top:50px;
+  color: red;
+}
+
+
+.details {
+  font-weight: normal;
+  font-size: smaller;
+  color: blue;
+}
+
+.merit1 > h3 {
+  margin: 0;
+}
+
+.btn1 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.merit2 > h3 {
+  margin: 0;
+}
+
+.btn2 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.merit3 > h3 {
+  margin: 0;
+}
+
+.btn3 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn3:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.merit4 > h3 {
+  margin: 0;
+}
+
+.btn4 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn4:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.merit5 > h3 {
+  margin: 0;
+}
+
+.btn5 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn5:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+
+
+.requirements {
+  margin-top: 50px;
+  color: red;
+}
+
+
+
+.flow {
+  margin-top: 80px;
+  color: red;
+}
+
+
+.flow1 > h3 {
+  margin: 0;
+}
+
+.btn6 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn6:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.flow2 > h3 {
+  margin: 0;
+}
+
+.btn7 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn7:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.flow3 > h3 {
+  margin: 0;
+}
+
+.btn8 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn8:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.flow4 > h3 {
+  margin: 0;
+}
+
+.btn9 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn9:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.flow5 > h3 {
+  margin: 0;
+}
+
+.btn10 {
+  margin: 0;
+  color: transparent;
+}
+
+.btn10:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+
+
+.website {
+  color: red;
+ }
+
+.weak {
+  font-size: 20px;
+}
+
+.vmwebsite li {
+  margin-bottom: 16px;
+}
+
+
+.computer {
+  margin-top: 60px;
+  color: red;
+}
+
+.weak2 {
+  font-size: 20px;
+}
+
+.vmcomputer li {
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  margin: 80px auto;
+  width: 300px;
+  height: 24px;
+  justify-content: center;
+  background: blue;
+  color: white;
+  margin: 
+}
+
